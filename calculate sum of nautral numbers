@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main(void) {
+  // input 10
+  // output 1+2+3+4+5+6+7+8+9+10=55
+  int n,i,sum=0;
+  printf("Enter A Number:\n");
+  scanf("%d",&n); // n=10
+  for(i=1;i<=n;i++) 
+  //   loop check karta rahega ki i ki value 10 ya to 10 se choti ho ya to 10 equal to ho 
+  // i++ vo i ki value badhata hi rahega
+  
+    // i<=n
+    // 1<=10
+    // 2<=10
+    // 3<=10
+    // 4<=10
+    // 5<=10
+    // 6<=10
+    // 7<=10
+    // 8<=10
+    // 9<=10
+    // 10<=10
+    
+    {
+      sum=sum+i;
+      // 0+1=1
+      // 1+2=3
+      // 3+3=6
+      // 6+4=10
+      // 10+5=15
+      // 45+10=55
+  
+    }
+  printf("Sum Of N Naturl Number:\n%d",sum);
+  return 0;
+}
